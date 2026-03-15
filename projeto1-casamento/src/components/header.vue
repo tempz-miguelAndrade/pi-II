@@ -46,7 +46,9 @@ nav ul {
   display: flex;
   gap: 20px;
 }
-h1, p, a {
+h1,
+p,
+a {
   color: white;
 }
 a {

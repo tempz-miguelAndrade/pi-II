@@ -4,10 +4,8 @@ import MAIN from './components/main.vue'
 </script>
 
 <template>
-  <HEADER/>
-  <MAIN/>
+  <HEADER />
+  <MAIN />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
