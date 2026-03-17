@@ -88,4 +88,37 @@
   margin: 0 auto;
   max-width: 600px;
 }
+
+/* === RESPONSIVIDADE === */
+@media only screen and (max-width: 600px) {
+  .date-section {
+    padding: 10vw 5vw;
+  }
+
+  .date-section h3 {
+    font-size: 1.5rem;
+  }
+
+  .date-section p {
+    font-size: 1rem;
+  }
+
+  .location-section {
+    padding: 10vw 5vw; /* Dá mais espaço horizontal para o texto */
+    gap: 40px;
+  }
+
+  .info-block h3 {
+    font-size: 1.3rem;
+  }
+
+  .info-block p {
+    font-size: 0.9rem;
+  }
+
+  .btn-dark {
+    padding: 10px 30px;
+    font-size: 0.9rem;
+  }
+}
 </style>

@@ -54,4 +54,28 @@ a {
 a {
   text-decoration: underline solid 1px;
 }
+
+
+/* === RESPONSIVIDADE === */
+@media only screen and (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 5vw;
+  }
+
+  div h1 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav ul li a {
+    font-size: 0.9rem;
+  }
+}
 </style>

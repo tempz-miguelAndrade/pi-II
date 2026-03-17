@@ -130,4 +130,39 @@ section.banner h2 {
 .btn-dark:hover {
   opacity: 1;
 }
+
+/* === RESPONSIVIDADE === */
+@media only screen and (max-width: 600px) {
+  section.banner h2 {
+    font-size: 12vw;
+    margin: 5vw 2vw;
+  }
+
+  .love-banner {
+    font-size: 1.8rem;
+    padding: 20vw 5vw;
+  }
+
+  .grid-section {
+    grid-template-columns: 1fr; /* Transforma o grid em 1 coluna */
+    padding: 10vw 5vw; /* Reduz drasticamente as margens laterais */
+    gap: 20px;
+  }
+
+  .grid-item {
+    font-size: 1.5rem;
+  }
+
+  .registry-banner {
+    padding: 15vw 5vw;
+  }
+
+  .registry-banner h2 {
+    font-size: 2.2rem;
+  }
+
+  .registry-banner p {
+    font-size: 1rem;
+  }
+}
 </style>
