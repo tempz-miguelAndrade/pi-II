@@ -25,26 +25,6 @@
       <p>SUA VINDA É NOSSA ALEGRIA!</p>
       <button class="btn-dark">REGISTRE-SE</button>
     </section>
-
-    <section class="date-section">
-      <h3>J&J</h3>
-      <p>Saturday,</p>
-      <p>September 20, 2025</p>
-    </section>
-
-    <section class="location-section">
-      <div class="info-block">
-        <h3>• LOCAL DO CASAMENTO</h3>
-        <p>A CERIMÔNIA E A RECEPÇÃO SERÃO REALIZADAS EM NOSSA PROPRIEDADE FAVORITA EM ST. AUGUSTINE. RECOMENDAMOS CHEGAR COM 20 MINUTOS DE ANTECEDÊNCIA PARA APROVEITAR A VISTA DO JARDIM.</p>
-        <button class="btn-dark">MAPA</button>
-      </div>
-
-      <div class="info-block">
-        <h3>• DICAS DE HOTÉIS</h3>
-        <p>SELECIONAMOS ALGUMAS OPÇÕES CHARMOSAS PARA SUA ESTADIA. PARA SUA CONVENIÊNCIA, RESERVAMOS UM BLOCO DE QUARTOS COM TARIFAS ESPECIAIS.</p>
-        <button class="btn-dark">HOTÉIS</button>
-      </div>
-    </section>
   </main>
 </template>
 
@@ -96,14 +76,22 @@ section.banner h2 {
   font-size: 2rem;
   font-weight: normal;
   text-decoration: underline solid 1px;
-  text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
   cursor: pointer;
 }
 
-.registry { background-image: url('../image/jeremy-wong-weddings-K8KiCHh4WU4-unsplash.jpg'); }
-.details { background-image: url('../image/hilal-kh-vk2Yjr1p2rY-unsplash.jpg'); }
-.story { background-image: url('../image/sandy-millar-8vaQKYnawHw-unsplash.jpg'); }
-.rsvp { background-image: url('../image/daniel-mcguire-wvLS1x9cCGU-unsplash.jpg'); }
+.registry {
+  background-image: url('../image/jeremy-wong-weddings-K8KiCHh4WU4-unsplash.jpg');
+}
+.details {
+  background-image: url('../image/hilal-kh-vk2Yjr1p2rY-unsplash.jpg');
+}
+.story {
+  background-image: url('../image/sandy-millar-8vaQKYnawHw-unsplash.jpg');
+}
+.rsvp {
+  background-image: url('../image/daniel-mcguire-wvLS1x9cCGU-unsplash.jpg');
+}
 
 /* --- REGISTRY--- */
 .registry-banner {
@@ -141,46 +129,5 @@ section.banner h2 {
 
 .btn-dark:hover {
   opacity: 1;
-}
-
-/* --- DATA --- */
-.date-section {
-  text-align: center;
-  padding: 5vw;
-}
-
-.date-section h3 {
-  font-size: 2rem;
-  margin-bottom: 15px;
-}
-
-.date-section p {
-  font-size: 1.2rem;
-  margin: 5px 0;
-}
-
-/* --- LOCAL/HOTÉIS --- */
-.location-section {
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../image/daniel-mcguire-wvLS1x9cCGU-unsplash.jpg');
-  background-size: cover;
-  background-position: center;
-  color: white;
-  text-align: center;
-  padding: 6vw 15vw;
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-}
-
-.info-block h3 {
-  font-size: 1.8rem;
-  margin-bottom: 15px;
-}
-
-.info-block p {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin: 0 auto;
-  max-width: 600px;
 }
 </style>
