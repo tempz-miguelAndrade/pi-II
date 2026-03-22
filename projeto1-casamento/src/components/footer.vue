@@ -62,7 +62,7 @@
   margin: 5px 0;
 }
 
-  /* --- LOCAL/HOTÉIS --- */
+/* --- LOCAL/HOTÉIS --- */
 .location-section {
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -104,16 +104,18 @@
   }
 
   .location-section {
-    padding: 10vw 5vw; /* Dá mais espaço horizontal para o texto */
+    padding: 10vw 5vw;
     gap: 40px;
   }
 
   .info-block h3 {
     font-size: 1.3rem;
+    color: white;
   }
 
   .info-block p {
     font-size: 0.9rem;
+    color: white;
   }
 
   .btn-dark {

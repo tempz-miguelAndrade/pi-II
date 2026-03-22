@@ -55,7 +55,6 @@ a {
   text-decoration: underline solid 1px;
 }
 
-
 /* === RESPONSIVIDADE === */
 @media only screen and (max-width: 600px) {
   header {
